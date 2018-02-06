@@ -85,7 +85,7 @@ class GoogleDriveAdapter extends AbstractAdapter
      *
      * @var array
      */
-    private $cacheFileObjects = [];
+    public $cacheFileObjects = [];
 
     /**
      * Cache of hasDir
